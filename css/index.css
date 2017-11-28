@@ -1,3 +1,14 @@
+body {
+  overflow-x: hidden; }
+
+div.wrap-header {
+  background-color: #534741;
+  padding-top: 0px;
+  height: 695px;
+  background-image: url("../img/back_bulb.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .wrap-logo {
   padding-top: 185px;
   padding-bottom: 45px; }
@@ -12,8 +23,13 @@
     margin-top: 40px; }
 
 .menu-bottom {
+  position: absolute;
+  left: 50%;
+  right: 0;
+  bottom: 0px;
+  margin-left: -230px;
+  margin-right: auto;
   width: 100%;
-  padding-left: 32%;
   min-height: 200px;
   font-size: 0.8rem; }
   .menu-bottom .gradient {
@@ -33,18 +49,20 @@
       background-color: #c84523;
       border-bottom: 1px solid white;
       color: #c8bfbd;
-      box-shadow: 10px 0px 35px -10px black; }
+      -webkit-box-shadow: 10px 0px 35px -10px black;
+              box-shadow: 10px 0px 35px -10px black; }
       .menu-bottom .left .item a {
         color: inherit; }
       .menu-bottom .left .item i {
         float: right;
         font-size: 2rem;
-        margin-top: 10px; }
+        margin-top: 5px; }
     .menu-bottom .left .item:first-child {
       background-color: #e64d24;
       color: white;
       font-size: 1rem;
-      box-shadow: 0px 0px 0px;
+      -webkit-box-shadow: 0px 0px 0px;
+              box-shadow: 0px 0px 0px;
       text-align: center;
       padding-left: 0px;
       padding-right: 0px; }
@@ -57,7 +75,8 @@
     padding-top: 40px;
     padding-left: 70px; }
     .menu-bottom .right ul {
-      padding-left: 0px; }
+      padding-left: 0px;
+      max-width: 500px; }
     .menu-bottom .right li {
       display: inline-block;
       width: 127px;
@@ -74,15 +93,14 @@
       border-left: none; }
 
 .bottom-content {
-  width: 100%;
-  padding-left: 32%; }
+  padding-left: 205px; }
   .bottom-content .left, .bottom-content .right {
     display: inline-block;
     float: left; }
   .bottom-content .left {
     width: 230px; }
   .bottom-content .right {
-    width: 445px; }
+    width: 434px; }
   .bottom-content .head .left {
     height: 130px;
     background-color: #e64d24; }
@@ -107,7 +125,8 @@
     .bottom-content .search-member .left .search {
       margin: 0 auto;
       border: 1px solid black;
-      box-sizing: content-box; }
+      -webkit-box-sizing: content-box;
+              box-sizing: content-box; }
   .bottom-content .search-member .right {
     height: 210px;
     padding-left: 35px;

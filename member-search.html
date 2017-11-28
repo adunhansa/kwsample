@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
     <title>Title</title>
 
@@ -19,23 +20,19 @@
 <body>
 
 <nav class="index">
-
-    <div class="menu-website">
-        <ul class="menu">
-            <li class="active">법무법인 광장</li>
-            <li class="center">특허법인 광장리앤고</li>
-            <li>공익활동위원회</li>
-        </ul>
+    <div class="wrap-narrow mobile">
+        <div class="menu-website">
+            <ul class="menu">
+                <li class="active">법무법인 광장</li>
+                <li class="center">특허법인 광장리앤고</li>
+                <li>공익활동위원회</li>
+            </ul>
+        </div>
     </div>
-
 </nav>
-
-<div class="wrap-header">
-    <!--<div class="back" style="width:100%;background-color: black;height: 5px;"></div>-->
+<div class="wrap-narrow">
     <div class="header detail">
-
         <nav class="left">
-
             <ul>
                 <li class="active"><a href="#">HOME</a></li>
                 <li><a href="#">업무분야</a></li>
@@ -44,11 +41,8 @@
                 <li><a href="#">공익활동</a></li>
                 <li><a href="#">광장소개</a></li>
             </ul>
-
         </nav>
     </div>
-
-
     <div class="wrap-search-area">
         <div class="search-area">
             <div class="form-group search">
@@ -67,7 +61,6 @@
             </div>
         </div>
     </div>
-
 </div>
 
 
@@ -78,59 +71,59 @@
     </div>
 </div>
 
-<div class="wrap-contents">
+<div class="wrap-contents mobile">
     <div class="contents">
-
-        <div class="left">
-            <div class="head">
-                <h3>구성원</h3>
-                <h4>PROFESSIONALS</h4>
+        <!-- 배경때문에 좀 특이하게 잡았던 건데-_- 배경을 다른 방식을 궁구해서 해야겠다고 생각함 -->
+        <div class="wrap-narrow">
+            <div class="left title">
+                <div class="head">
+                    <h3>구성원</h3>
+                    <h4 class="invisible-in-mobile">PROFESSIONALS</h4>
+                </div>
+                <div class="desc invisible-in-mobile">구성원검색</div>
             </div>
-            <div class="desc">구성원검색</div>
+            <div class="right search-option-box">
+                <div class="select-work">
+                    <hr class="invisible-in-mobile">
+                    <h3>업무분야를 선택하세요</h3>
+                    <div class="selectable-work custom-scroll">
+                        <div class="item active"><span>개인정보분쟁</span></div>
+                        <div class="item"><span>건설</span></div>
+                        <div class="item"><span>공정거래</span></div>
+                        <div class="item"><span>공정거래 소송</span></div>
+                        <div class="item"><span>관세</span></div>
+                        <div class="item"><span>관세쟁송</span></div>
+                        <div class="item"><span>구조화 금융</span></div>
+                        <div class="item"><span>국제중재 및 소송</span></div>
+                        <div class="item"><span>국제통상</span></div>
+
+                        <div class="item"><span>개인정보분쟁</span></div>
+                        <div class="item"><span>건설</span></div>
+                        <div class="item"><span>공정거래</span></div>
+                        <div class="item"><span>공정거래 소송</span></div>
+                        <div class="item"><span>관세</span></div>
+                        <div class="item"><span>관세쟁송</span></div>
+                        <div class="item"><span>구조화 금융</span></div>
+                        <div class="item active"><span>국제중재 및 소송</span></div>
+                        <div class="item"><span>국제통상</span></div>
+                    </div>
+                </div>
+                <div class="select-member">
+                    <hr class="invisible-in-mobile">
+                    <h3>구성원의 이름을 선택하세요</h3>
+                    <div class="form-group search-name wrap-input">
+                        <input type="text" name="search-name" placeholder="ex) 홍길동"/>
+                    </div>
+                    <div class="form-group search-btn">
+                        <button type="button" class="btn-basic">검색</button>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="right">
 
-            <div class="select-work">
-                <hr>
-                <h3>업무분야를 선택하세요</h3>
-                <div class="selectable-work custom-scroll">
-                    <div class="item active">개인정보분쟁</div>
-                    <div class="item">건설</div>
-                    <div class="item">공정거래</div>
-                    <div class="item">공정거래 소송</div>
-                    <div class="item">관세</div>
-                    <div class="item">관세쟁송</div>
-                    <div class="item">구조화 금융</div>
-                    <div class="item">국제중재 및 소송</div>
-                    <div class="item">국제통상</div>
-
-                    <div class="item">개인정보분쟁</div>
-                    <div class="item">건설</div>
-                    <div class="item">공정거래</div>
-                    <div class="item">공정거래 소송</div>
-                    <div class="item">관세</div>
-                    <div class="item">관세쟁송</div>
-                    <div class="item">구조화 금융</div>
-                    <div class="item">국제중재 및 소송</div>
-                    <div class="item">국제통상</div>
-                </div>
-            </div>
-            <div class="select-member">
-                <hr>
-                <h3>구성원의 이름을 선택하세요</h3>
-                <div class="form-group search-name wrap-input">
-                    <input type="text" name="search-name" placeholder="ex) 홍길동" />
-                </div>
-                <div class="form-group search-btn">
-                    <button type="button" class="btn-basic">검색</button>
-                </div>
-            </div>
-
-        </div>
     </div>
 </div>
-
-
 
 
 <footer class="wrap-narrow">
@@ -146,8 +139,6 @@
     </p>
 
 </footer>
-
-
 
 
 <script src="js/libs/jquery.min.js"></script>

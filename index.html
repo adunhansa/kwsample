@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
     <title>Title</title>
-
     <link rel="stylesheet" href="css/libs/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/libs/bootstrap.min.css">
     <link rel="stylesheet" href="css/libs/jquery-ui.min.css">
@@ -19,7 +19,7 @@
 <body>
 
 <nav class="index">
-
+    <div class="wrap-narrow">
         <div class="menu-website">
             <ul class="menu">
                 <li class="active">법무법인 광장</li>
@@ -27,108 +27,120 @@
                 <li>공익활동위원회</li>
             </ul>
         </div>
-
-</nav>
-
-<div class="wrap-header">
-    <!--<div class="back" style="width:100%;background-color: black;height: 5px;"></div>-->
-    <div class="header">
-
-        <nav class="left">
-
-            <ul>
-                <li class="active"><a href="#">HOME</a></li>
-                <li><a href="#">업무분야</a></li>
-                <li><a href="#">구성원 소개</a></li>
-                <li><a href="#">인재채용</a></li>
-                <li><a href="#">공익활동</a></li>
-                <li><a href="#">광장소개</a></li>
-            </ul>
-
-        </nav>
     </div>
+</nav>
+<div class="left-color"></div>
+<div class="wrap-header"  style="position: relative;">
 
+    <div class="wrap-narrow">
+        <div class="header">
+            <nav class="left">
 
-    <div class="wrap-search-area">
-        <div class="search-area">
-            <div class="form-group search">
-                <input type="text" name="search"/>
-                <div class="btn-area">
-                    <i class="fa fa-search" aria-hidden="true"></i>
+                <ul>
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="#">업무분야</a></li>
+                    <li><a href="#">구성원 소개</a></li>
+                    <li><a href="#">인재채용</a></li>
+                    <li><a href="#">공익활동</a></li>
+                    <li><a href="#">광장소개</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <div class="wrap-search-area">
+            <div class="search-area">
+                <div class="form-group search">
+                    <input type="text" name="search"/>
+                    <div class="btn-area">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="form-group lang">
+                    <select class="minimal">
+                        <option>KOR</option>
+                        <option>ENG</option>
+                        <option>CHN</option>
+                        <option>JP</option>
+                    </select>
                 </div>
             </div>
-            <div class="form-group lang">
-                <select class="minimal">
-                    <option>KOR</option>
-                    <option>ENG</option>
-                    <option>CHN</option>
-                    <option>JP</option>
-                </select>
+        </div>
+
+
+        <!-- BEGIN : 로고 -->
+        <div class="wrap-logo">
+            <img src="img/logo.png" class="logo"/>
+            <p class="desc">
+                <span>국내외 유수의 언론과 평가기관으로부터 서비스의 수준, 고객의 만족도 등</span><br>
+                <span>모든 면에서 최고의 로펌으로 평가받고 있습니다.</span>
+            </p>
+
+            <img src="img/arrow-main.png" class="arrow" alt="">
+
+        </div>
+        <!-- END : 로고 -->
+        <div class="clearfix"></div>
+
+
+        <div class="menu-bottom">
+            <div class="gradient"></div>
+            <div class="left">
+                <div class="item">
+                    <a href="#">업무분야</a>
+                </div>
+                <div class="item">
+                    <a href="#">전체보기</a>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+                <div class="item">
+                    <a href="#">분야별</a>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+                <div class="item">
+                    <a href="#">산업별</a>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+                <div class="item">
+                    <a href="#">국가별</a>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="right">
+
+                <ul>
+                    <li>기업일반</li>
+                    <li>금융</li>
+                    <li>자본시장</li>
+                    <li>소송 및 중재</li>
+                    <li>국제중재 및 소송</li>
+                    <li>조세</li>
+                    <li>관세</li>
+                    <li>지적재산권</li>
+                    <li>인사 및 노무</li>
+                    <li>항공 및 해상</li>
+                    <li>국제</li>
+                </ul>
             </div>
         </div>
-    </div>
 
-    <div class="wrap-logo wrap-narrow">
-        <img src="img/logo.png" class="logo"/>
-        <p class="desc">
-            <span>국내외 유수의 언론과 평가기관으로부터 서비스의 수준, 고객의 만족도 등</span><br>
-            <span>모든 면에서 최고의 로펌으로 평가받고 있습니다.</span>
-        </p>
-
-        <img src="img/arrow-main.png" class="arrow" alt="">
+        <div class="clearfix"></div>
 
     </div>
-    <div class="clearfix"></div>
 
-
-
-    <div class="menu-bottom">
-        <div class="gradient"></div>
-        <div class="left">
-            <div class="item">
-                <a href="#">업무분야</a>
-            </div>
-            <div class="item">
-                <a href="#">전체보기</a>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-            </div>
-            <div class="item">
-                <a href="#">분야별</a>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-            </div>
-            <div class="item">
-                <a href="#">산업별</a>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-            </div>
-            <div class="item">
-                <a href="#">국가별</a>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-            </div>
-        </div>
-        <div class="right">
-
-            <ul>
-                <li>기업일반</li>
-                <li>금융</li>
-                <li>자본시장</li>
-                <li>소송 및 중재</li>
-                <li>국제중재 및 소송</li>
-                <li>조세</li>
-                <li>관세</li>
-                <li>지적재산권</li>
-                <li>인사 및 노무</li>
-                <li>항공 및 해상</li>
-                <li>국제</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="clearfix"></div>
 
 </div>
 
-<div class="bottom-content">
-    <div class="gradient"></div>
+
+<div class="">
+    <!--<div class="back" style="width:100%;background-color: black;height: 5px;"></div>-->
+
+
+
+</div>
+<div class="gradient"></div>
+<div class="bottom-content wrap-narrow">
+
 
     <div class="head">
         <div class="left">
@@ -229,6 +241,7 @@
     </div>
 </div>
 
+
 <footer class="wrap-narrow">
     <ul class="links">
         <li><a href="#">면책공고</a></li>
@@ -240,7 +253,6 @@
     <p>
         Copyright &copy; Lee&amp;Ko All Right Reserved
     </p>
-
 </footer>
 
 

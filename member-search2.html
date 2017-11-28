@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
     <title>Title</title>
 
@@ -30,7 +31,7 @@
 
 </nav>
 
-<div class="wrap-header">
+<div class="wrap-narrow">
     <!--<div class="back" style="width:100%;background-color: black;height: 5px;"></div>-->
     <div class="header detail">
 
@@ -75,13 +76,16 @@
 <div class="category-detail">
     <div class="wrap-narrow">
         <span>HOME &gt; 구성원 &gt; 구성원 검색 &gt; </span>
-        <span class="current">가사 소송</span>
+        <span class="current">구성원 소개</span>
     </div>
 </div>
 
 <div class="middle-search">
     <div class="wrap-narrow" style="text-align: center;">
-
+        <div class="title">
+            <div class="head visible-in-mobile">
+                <h3>구성원 소개</h3>
+            </div>
             <div class="form-group">
                 <select class="minimal">
                     <option>업무분야를 선택해주세요</option>
@@ -90,21 +94,43 @@
                     <option>업무분야-3</option>
                 </select>
             </div>
+            <div class="form-group">
+                <div class="form-group search-name wrap-input">
+                    <input type="text" name="search-name" placeholder="구성원의 이름을 입력하세요"/>
+                </div>
+                <div class="form-group search-btn">
+                    <button type="button" class="btn-basic">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
 
-            <div class="form-group search-name wrap-input">
-                <input type="text" name="search-name" placeholder="구성원의 이름을 입력하세요" />
-            </div>
-            <div class="form-group search-btn">
-                <button type="button" class="btn-basic">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-            </div>
     </div>
 </div>
 
 <div class="search-result wrap-narrow">
-    <div class="title">가사 소송</div>
-
+    <div class="title invisible-in-mobile">가사 소송</div>
+    <div class="result-item">
+        <div class="head"></div>
+        <div class="result">
+            <img src="img/search-result.png" alt="" class="result-img">
+            <div class="wrap-con">
+                <div class="name">강수정</div>
+                <div class="more-detail">자세히 &gt;</div>
+                <span class="job">변호사</span>
+                <div class="tel">T. 02-6386-6213</div>
+                <div class="email">E. soojeong@leeko.com</div>
+                <div class="mainwork">
+                    <div class="work-title">주요업무분야</div>
+                    <div class="contents">
+                        지적재산권,오픈소스 SW, <br>
+                        지적재산권 소송, 형사, 엔터테인먼트
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="result-item">
         <div class="head"></div>
         <div class="result">
@@ -223,8 +249,6 @@
 </div>
 
 
-
-
 <div class="clearfix"></div>
 
 <footer class="wrap-narrow">
@@ -240,8 +264,6 @@
     </p>
 
 </footer>
-
-
 
 
 <script src="js/libs/jquery.min.js"></script>
