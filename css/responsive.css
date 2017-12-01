@@ -1,0 +1,22 @@
+@charset "UTF-8";
+                                    
+  
+              
+                 
+               
+             
+  
+.visible-inline-xs {
+  display: none; }
+
+@media only screen and (max-width: 767px) {
+  .visible-inline-xs {
+    display: inline-block !important; } }
+.verti-center {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }

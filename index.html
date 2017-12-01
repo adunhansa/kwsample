@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>광장 - 첫 페이지</title>
     <link rel="stylesheet" href="css/libs/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/libs/bootstrap.min.css">
     <link rel="stylesheet" href="css/libs/jquery-ui.min.css">
@@ -18,7 +18,7 @@
 
 <body>
 
-<nav class="index">
+<nav class="index invisible-in-mobile">
     <div class="wrap-narrow">
         <div class="menu-website">
             <ul class="menu">
@@ -29,15 +29,55 @@
         </div>
     </div>
 </nav>
+<nav class="m-nav visible-in-mobile">
+    <div class="left-hamberger">
+        <a href="#none" class="">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+    </div>
+    <a href="#">
+        <img src="img/logo-mobile.png" class="logo" alt="">
+    </a>
+
+    <div class="right-searcharea">
+
+    </div>
+</nav>
 <div class="left-color"></div>
-<div class="wrap-header"  style="position: relative;">
+
+<div class="wrap-header" style="position: relative;">
+
+    <div id="myCarousel"  class="wrap-carousel-img carousel slide m-absolute100" data-ride="carousel" data-interval="false">
+
+
+        <ol class="carousel-indicators wrap-narrow">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="visible-xs m-wrap-logo m-absolute100 ">
+            <span class="title">[광장]<span class="gray">은</span> 언제나 <span class="gray">앞서갑니다.</span></span>
+
+            <p class="desc">
+                <span>국내외 유수의 언론과 평가기관으로부터<br> 서비스의 수준, 고객의 만족도 등</span>
+                <span>모든 면에서<br> 최고의 로펌으로 평가받고 있습니다.</span>
+            </p>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="item active back1"></div>
+            <div class="item  back2"></div>
+            <div class="item  back3"></div>
+        </div>
+    </div>
 
     <div class="wrap-narrow">
         <div class="header">
             <nav class="left">
 
                 <ul>
-                    <li class="active"><a href="#">HOME</a></li>
+                    <li class="active hidden-xs"><a href="#">HOME</a></li>
                     <li><a href="#">업무분야</a></li>
                     <li><a href="#">구성원 소개</a></li>
                     <li><a href="#">인재채용</a></li>
@@ -48,7 +88,7 @@
             </nav>
         </div>
 
-        <div class="wrap-search-area">
+        <div class="wrap-search-area hidden-xs">
             <div class="search-area">
                 <div class="form-group search">
                     <input type="text" name="search"/>
@@ -69,21 +109,20 @@
 
 
         <!-- BEGIN : 로고 -->
-        <div class="wrap-logo">
+        <div class="wrap-logo hidden-xs">
             <img src="img/logo.png" class="logo"/>
             <p class="desc">
                 <span>국내외 유수의 언론과 평가기관으로부터 서비스의 수준, 고객의 만족도 등</span><br>
                 <span>모든 면에서 최고의 로펌으로 평가받고 있습니다.</span>
             </p>
-
-            <img src="img/arrow-main.png" class="arrow" alt="">
-
         </div>
+
+
         <!-- END : 로고 -->
         <div class="clearfix"></div>
 
 
-        <div class="menu-bottom">
+        <div class="menu-bottom hidden-xs">
             <div class="gradient"></div>
             <div class="left">
                 <div class="item">
@@ -131,6 +170,52 @@
 
 </div>
 
+<div class="clearfix"></div>
+<div class="menu-bottom-title visible-xs">업무분야</div>
+
+<div class="menu-bottom visible-xs">
+    <div class="gradient"></div>
+    <div class="left">
+        <div class="item">
+            <a href="#">업무분야</a>
+        </div>
+        <div class="item">
+            <a href="#">전체보기</a>
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+        <div class="item">
+            <a href="#">분야별</a>
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+        <div class="item">
+            <a href="#">산업별</a>
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+        <div class="item">
+            <a href="#">국가별</a>
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="right">
+
+        <ul>
+            <li>기업일반</li>
+            <li>금융</li>
+            <li>자본시장</li>
+            <li>소송 및 중재</li>
+            <li>국제중재 및 소송</li>
+            <li>조세</li>
+            <li>관세</li>
+            <li>지적재산권</li>
+            <li>인사 및 노무</li>
+            <li>항공 및 해상</li>
+            <li>국제</li>
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<div class="clearfix"></div>
 
 <div class="">
     <!--<div class="back" style="width:100%;background-color: black;height: 5px;"></div>-->
@@ -142,7 +227,7 @@
 <div class="bottom-content wrap-narrow">
 
 
-    <div class="head">
+    <div class="head hidden-xs">
         <div class="left">
 
         </div>
@@ -154,7 +239,8 @@
 
     <div class="clearfix"></div>
     <div class="search-member">
-        <div class="left">
+        <div class="menu-bottom-title visible-xs">구성원</div>
+        <div class="left hidden-xs">
             <h3>구성원 검색</h3>
             <div class="form-group search">
                 <input type="text" name="search"/>
@@ -163,6 +249,30 @@
                 </div>
             </div>
         </div>
+        <div class="m-left visible-xs">
+            <div class="inside-left">
+                <img class="user" src="img/icon/icon-user.png" width="100" height="100"/>
+                <div class="search">
+                    <div class="desc">구성원을 검색해주세요</div>
+                    <div class="form-group">
+                        <input type="text" name="search"/>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="desc">구성원의 업무분야를 선택해주세요</div>
+
+                    <div class="form-group">
+                        <select class="minimal">
+                            <option>분야1</option>
+                            <option>분야2</option>
+                            <option>분야3</option>
+                            <option>분야4</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="button" class="btn-basic">검색</button>
+            </div>
+        </div>
+        <div class="menu-bottom-title visible-xs">최신 뉴스</div>
         <div class="right">
             <div class="article">
                 <span class="title">언론보도</span>
@@ -198,7 +308,7 @@
 </div>
 <div class="clearfix"></div>
 
-<div class="banners">
+<div class="banners hidden-xs">
     <div class="wrap-narrow">
         <div class="item">
             <div class="wrap-img">
@@ -245,12 +355,12 @@
 <footer class="wrap-narrow">
     <ul class="links">
         <li><a href="#">면책공고</a></li>
-        <li><a href="#">면책공고</a></li>
+        <li><a href="#">개인정보취급방침</a></li>
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">사이트맵</a></li>
         <li><a href="#">뉴스레터 신청</a></li>
     </ul>
-    <p>
+    <p class="copyright">
         Copyright &copy; Lee&amp;Ko All Right Reserved
     </p>
 </footer>
