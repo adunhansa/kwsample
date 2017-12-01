@@ -30,6 +30,12 @@
       bottom: 16%;
       left: 20px;
       text-align: left; }
+    #myCarousel .back1 {
+      background-image: url("../img/index/mobile-1.png"); }
+    #myCarousel .back2 {
+      background-image: url("../img/index/mobile-2.png"); }
+    #myCarousel .back3 {
+      background-image: url("../img/index/mobile-3.png"); }
 
   .m-wrap-logo {
     margin-top: 40px;

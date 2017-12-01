@@ -39,7 +39,7 @@ div.wrap-header {
 #myCarousel .back2 {
   background-image: url("../img/index/main_back_2.png"); }
 #myCarousel .back3 {
-  background-image: url("../img/index/main_back_3.png"); }
+  background-image: url("../img/index/pc-back-3.png"); }
 #myCarousel .carousel-indicators {
   margin-left: -435px;
   width: auto;
@@ -111,7 +111,7 @@ div.wrap-header {
       border-bottom: none; }
   .menu-bottom .right {
     width: calc(100% - 230px);
-    background-color: #c69c6d;
+    background-color: #989898;
     min-height: 225px;
     padding-top: 40px;
     padding-left: 70px; }
@@ -274,6 +274,12 @@ div.wrap-header {
       bottom: 16%;
       left: 20px;
       text-align: left; }
+    #myCarousel .back1 {
+      background-image: url("../img/index/mobile-1.png"); }
+    #myCarousel .back2 {
+      background-image: url("../img/index/mobile-2.png"); }
+    #myCarousel .back3 {
+      background-image: url("../img/index/mobile-3.png"); }
 
   .m-wrap-logo {
     margin-top: 40px;
