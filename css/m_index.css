@@ -48,11 +48,11 @@
       padding-bottom: 5px;
       border-bottom: 2px solid white;
       margin-bottom: 10%;
-      font-size: 0.85rem; }
+      font-size: 1.05rem; }
     .m-wrap-logo .desc {
       padding-top: 10%;
-      font-size: 0.75rem;
-      line-height: 0.82rem; }
+      font-size: 1.05rem;
+      line-height: 1.2rem; }
 
   .menu-bottom-title {
     margin-top: 10px;
@@ -60,7 +60,7 @@
     line-height: 30px;
     padding-bottom: 5px;
     padding-left: 20px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 600; }
 
   .menu-bottom {

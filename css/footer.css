@@ -9,7 +9,7 @@
 footer {
   min-height: 105px;
   padding-top: 10px;
-  font-size: 0.8rem; }
+  font-size: 1rem; }
   footer ul.links {
     margin-bottom: 15px;
     padding-left: 0px; }
@@ -17,12 +17,16 @@ footer {
       display: inline-block;
       border-right: 2px solid #dcdcdc;
       padding-right: 20px;
-      margin-right: 15px; }
+      margin-right: 15px;
+      font-size: 1rem; }
     footer ul.links li:last-child {
       border-right: none; }
     footer ul.links a {
+      font-size: 1.2rem;
       color: inherit;
       text-decoration: none; }
+    footer ul.links p.copyright {
+      font-size: 1.1rem; }
 
 @media only screen and (max-width: 767px) {
   footer.wrap-narrow {

@@ -19,16 +19,30 @@
 
 <body>
 
-<nav class="index">
-
-    <div class="menu-website">
-        <ul class="menu">
-            <li class="active">법무법인 광장</li>
-            <li class="center">특허법인 광장리앤고</li>
-            <li>공익활동위원회</li>
-        </ul>
+<nav class="index invisible-in-mobile">
+    <div class="wrap-narrow">
+        <div class="menu-website">
+            <ul class="menu">
+                <li class="active">법무법인 광장</li>
+                <li class="center">특허법인 광장리앤고</li>
+                <li>공익활동위원회</li>
+            </ul>
+        </div>
     </div>
+</nav>
+<nav class="m-nav visible-in-mobile">
+    <div class="left-hamberger">
+        <a href="#none" class="">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+    </div>
+    <a href="#">
+        <img src="img/newlogo.png" class="logo" alt="">
+    </a>
 
+    <div class="right-searcharea">
+
+    </div>
 </nav>
 
 <div class="wrap-narrow">
@@ -38,7 +52,7 @@
         <nav class="left">
 
             <ul>
-                <li class="active"><a href="#">HOME</a></li>
+                <li class="active hidden-xs"><a href="#">HOME</a></li>
                 <li><a href="#">업무분야</a></li>
                 <li><a href="#">구성원 소개</a></li>
                 <li><a href="#">인재채용</a></li>
@@ -50,7 +64,7 @@
     </div>
 
 
-    <div class="wrap-search-area">
+    <div class="wrap-search-area hidden-xs">
         <div class="search-area">
             <div class="form-group search">
                 <input type="text" name="search"/>
@@ -110,7 +124,7 @@
 </div>
 
 <div class="search-result wrap-narrow">
-    <div class="title invisible-in-mobile">가사 소송</div>
+    <div class="title invisible-in-mobile">구성원 소개</div>
     <div class="result-item">
         <div class="head"></div>
         <div class="result">
@@ -276,6 +290,9 @@
 
 <script>
 
+    $(".more-detail").click(function(){
+       location.href="member-detail.html";
+    });
 </script>
 </body>
 </html>

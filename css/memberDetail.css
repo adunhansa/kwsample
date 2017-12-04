@@ -1,0 +1,217 @@
+@charset "UTF-8";
+                                    
+  
+              
+                 
+               
+             
+  
+@media only screen and (min-width: 768px) {
+  .member-detail-card {
+    width: 868px;
+    background-color: #F2F2F2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .member-detail-card .card-header {
+      height: 166px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1; }
+      .member-detail-card .card-header .member-job {
+        width: 139px;
+        height: 136px;
+        background-color: #436797;
+        color: #ffffff;
+        margin-left: 85px;
+        text-align: center;
+        font-size: 1.2em;
+        line-height: 136px; }
+      .member-detail-card .card-header .member-name {
+        margin: auto 167px;
+        font-size: 2.3em;
+        border-bottom: 2px solid #999999;
+        padding-bottom: 10px; }
+        .member-detail-card .card-header .member-name .text {
+          font-weight: 700; }
+    .member-detail-card .individual-info {
+      width: 302px;
+      background-color: #E6E6E6;
+      margin-top: 60px;
+      position: relative;
+      margin-bottom: 118px; }
+      .member-detail-card .individual-info .result-img {
+        width: 202px;
+        height: 222px;
+        top: -60px;
+        position: relative;
+        margin-left: 50px; }
+      .member-detail-card .individual-info .marker-image {
+        width: 45px;
+        height: 41px;
+        position: absolute;
+        right: -10px;
+        top: -35px; }
+    .member-detail-card .info-box-container {
+      width: 198px;
+      margin: auto; }
+      .member-detail-card .info-box-container .info-box {
+        width: 100%;
+        margin-bottom: 50px; }
+        .member-detail-card .info-box-container .info-box .info-name {
+          display: inline-block;
+          font-size: 1em;
+          font-weight: 700;
+          padding-bottom: 15px;
+          border-bottom: 2px solid black; }
+        .member-detail-card .info-box-container .info-box .info-details {
+          margin-top: 15px; }
+          .member-detail-card .info-box-container .info-box .info-details .info-item {
+            font-size: 0.8em;
+            line-height: 1.5em;
+            font-weight: 700; }
+        .member-detail-card .info-box-container .info-box.contact dt, .member-detail-card .info-box-container .info-box.contact dl {
+          font-size: 0.8em;
+          font-weight: 700;
+          line-height: 1.5em; }
+        .member-detail-card .info-box-container .info-box.contact dt {
+          margin-top: 15px; }
+    .member-detail-card .member-history {
+      margin-bottom: 118px;
+      width: 565px;
+      padding-top: 30px; }
+      .member-detail-card .member-history .history-box-container {
+        width: 426px;
+        margin: auto; }
+        .member-detail-card .member-history .history-box-container .history-box {
+          width: 100%;
+          margin-bottom: 50px; }
+          .member-detail-card .member-history .history-box-container .history-box .history-name {
+            display: inline-block;
+            font-size: 1em;
+            font-weight: 700;
+            padding-bottom: 15px;
+            border-bottom: 2px solid black; }
+          .member-detail-card .member-history .history-box-container .history-box .member-introduce {
+            text-align: justify;
+            font-size: 0.9em;
+            font-weight: 700;
+            line-height: 1.5em;
+            margin-top: 15px; }
+          .member-detail-card .member-history .history-box-container .history-box .history-details {
+            margin-top: 15px; }
+            .member-detail-card .member-history .history-box-container .history-box .history-details .history-item {
+              font-size: 0.8em;
+              line-height: 1.5em; } }
+@media only screen and (max-width: 767px) {
+  .middle-search {
+    padding: 0;
+    background-color: #ffffff;
+    min-height: 165px;
+    height: auto; }
+    .middle-search .minimal {
+      margin-top: 30px; }
+
+  .search-result {
+    background-color: #E6E6E6;
+    padding: 15px; }
+    .search-result .wrap-btn {
+      width: 100%;
+      margin-top: 0 !important; }
+
+  .member-detail-card {
+    background-color: #ffffff;
+    max-width: 605px;
+    margin: auto; }
+    .member-detail-card .individual-info-mobile {
+      display: -webkit-box !important;
+      display: -webkit-flex !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      padding: 15px; }
+      .member-detail-card .individual-info-mobile .image-and-contact {
+        max-width: 262px;
+        padding: 15px;
+        background-color: #B3B3B3;
+        margin: auto; }
+        .member-detail-card .individual-info-mobile .image-and-contact .result-img {
+          width: 100%;
+          height: auto; }
+        .member-detail-card .individual-info-mobile .image-and-contact .info-details {
+          text-align: center; }
+          .member-detail-card .individual-info-mobile .image-and-contact .info-details dt {
+            color: white;
+            font-weight: 400; }
+          .member-detail-card .individual-info-mobile .image-and-contact .info-details dd:nth-of-type(1) {
+            margin-bottom: 15px; }
+      .member-detail-card .individual-info-mobile .info-box-container {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        min-width: 250px;
+        padding: 15px; }
+        .member-detail-card .individual-info-mobile .info-box-container .member-name {
+          font-size: 2.4em;
+          font-weight: 700; }
+        .member-detail-card .individual-info-mobile .info-box-container .member-job {
+          display: inline-block;
+          padding: 8px 18px;
+          background-color: #436697;
+          color: #ffffff;
+          margin-top: 17px; }
+        .member-detail-card .individual-info-mobile .info-box-container .info-box {
+          margin-top: 25px; }
+          .member-detail-card .individual-info-mobile .info-box-container .info-box .info-name {
+            font-size: 1.5em; }
+          .member-detail-card .individual-info-mobile .info-box-container .info-box .info-details {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+            margin-top: 24px; }
+            .member-detail-card .individual-info-mobile .info-box-container .info-box .info-details .info-item {
+              font-size: 1.1em;
+              line-height: 1.5em;
+              text-align: left;
+              color: #000000; }
+              .member-detail-card .individual-info-mobile .info-box-container .info-box .info-details .info-item:not(:last-child):after {
+                content: ',\00a0'; }
+    .member-detail-card .member-history .history-box-container .history-box {
+      padding: 25px 35px;
+      border-top: 1px solid #D2D2D2; }
+      .member-detail-card .member-history .history-box-container .history-box .history-name {
+        font-size: 1.5em;
+        font-weight: 700; }
+      .member-detail-card .member-history .history-box-container .history-box .member-introduce {
+        font-size: 1.2em;
+        line-height: 1.4em;
+        font-weight: 700;
+        margin-top: 30px; }
+      .member-detail-card .member-history .history-box-container .history-box .history-details {
+        margin-top: 30px; }
+        .member-detail-card .member-history .history-box-container .history-box .history-details .history-item {
+          font-size: 1.2em;
+          line-height: 1.4em;
+          font-weight: 700; } }
+.wrap-btn .btn-line {
+  margin-top: 50px; }
+  .wrap-btn .btn-line i {
+    position: relative;
+    top: 0px;
+    right: -5px; }

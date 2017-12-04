@@ -58,8 +58,8 @@ div.wrap-header {
     margin-bottom: 40px; }
   .wrap-logo p.desc {
     color: white;
-    font-size: 0.8rem;
-    line-height: 1rem; }
+    font-size: 1.3rem;
+    line-height: 1.5rem; }
   .wrap-logo img.arrow {
     margin-top: 40px; }
 
@@ -83,10 +83,11 @@ div.wrap-header {
   .menu-bottom .left {
     width: 230px; }
     .menu-bottom .left .item {
+      font-size: 1.3rem;
       padding-left: 40px;
       padding-right: 13px;
-      height: 45px;
-      line-height: 45px;
+      height: 56.2px;
+      line-height: 56.2px;
       background-color: #c84523;
       border-bottom: 1px solid white;
       color: #c8bfbd;
@@ -96,12 +97,12 @@ div.wrap-header {
         color: inherit; }
       .menu-bottom .left .item i {
         float: right;
-        font-size: 2rem;
-        margin-top: 5px; }
+        font-size: 2.4rem;
+        margin-top: 15px; }
     .menu-bottom .left .item:first-child {
       background-color: #e64d24;
       color: white;
-      font-size: 1rem;
+      font-size: 1.6rem;
       -webkit-box-shadow: 0px 0px 0px;
               box-shadow: 0px 0px 0px;
       text-align: center;
@@ -128,7 +129,8 @@ div.wrap-header {
       margin-right: 22px;
       color: white;
       cursor: pointer;
-      border-left: 4px solid #b3b3b3; }
+      border-left: 4px solid #b3b3b3;
+      font-size: 1.2rem; }
     .menu-bottom .right li:hover {
       background-color: #d96d41;
       border-left: none; }
@@ -153,7 +155,7 @@ div.wrap-header {
     .bottom-content .head .right h3 {
       margin-bottom: 0px;
       margin-top: 0px;
-      font-size: 1.3rem; }
+      font-size: 1.8rem; }
   .bottom-content .search-member .left {
     height: 210px;
     background-image: url("../img/main-back-bottom.png");
@@ -162,7 +164,8 @@ div.wrap-header {
     .bottom-content .search-member .left h3 {
       color: white;
       margin-top: 50px;
-      margin-bottom: 55px; }
+      margin-bottom: 55px;
+      font-size: 1.4rem; }
     .bottom-content .search-member .left .search {
       margin: 0 auto;
       border: 1px solid black;
@@ -183,9 +186,9 @@ div.wrap-header {
       width: 104px;
       display: inline-block;
       color: #e64d24;
-      font-size: 0.8rem; }
+      font-size: 1.2rem; }
     .bottom-content .search-member .article .desc {
-      font-size: 0.85rem;
+      font-size: 1.3rem;
       font-weight: 600; }
   .bottom-content .search-member .article:last-child {
     border-bottom: 1px solid #cccccc; }
@@ -222,13 +225,17 @@ div.wrap-header {
       float: left;
       padding-left: 20px;
       padding-right: 30px;
-      font-size: 0.65rem;
+      font-size: 1rem;
       color: white; }
       .banners .item .contents .title {
-        font-size: 0.7rem;
+        font-size: 1.1rem;
         font-weight: 600;
         margin-top: 5px;
-        margin-bottom: 10px; }
+        margin-bottom: 5px; }
+      .banners .item .contents .desc {
+        padding-bottom: 5px;
+        line-height: 1.2rem;
+        max-height: 40px; }
   .banners .arrow {
     background-color: #4d4d4d;
     display: inline-block;
@@ -236,7 +243,7 @@ div.wrap-header {
     height: 80px;
     line-height: 80px;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3.6rem;
     font-weight: 600;
     color: white;
     float: right; }
@@ -292,11 +299,11 @@ div.wrap-header {
       padding-bottom: 5px;
       border-bottom: 2px solid white;
       margin-bottom: 10%;
-      font-size: 0.85rem; }
+      font-size: 1.05rem; }
     .m-wrap-logo .desc {
       padding-top: 10%;
-      font-size: 0.75rem;
-      line-height: 0.82rem; }
+      font-size: 1.05rem;
+      line-height: 1.2rem; }
 
   .menu-bottom-title {
     margin-top: 10px;
@@ -304,7 +311,7 @@ div.wrap-header {
     line-height: 30px;
     padding-bottom: 5px;
     padding-left: 20px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 600; }
 
   .menu-bottom {
